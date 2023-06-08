@@ -1,0 +1,136 @@
+header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+.logo {
+    margin: 12px 536px 11px 90px;
+}
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+
+}
+nav li {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #303134;
+    font-family: font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+section img {
+    width: 100%;
+    margin-bottom: ;
+}
+#container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.discover {
+    margin-left: 90px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+ .discover h1 {
+    font-size: 18px;
+    color: #8D8D8D;
+    text-transform: uppercase;
+    margin-bottom: 11px;
+    font-family: font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+ .discover h2 {
+    color: #000000;
+    font-size: 28px;
+    font-family: font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 31px;
+}
+ .discover p {
+    width: 276px;
+    height: 132px;
+    font-size: 18px;
+    color: #8D8D8D;
+    font-family: font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.cards {
+    margin-left: 46px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.booking {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    gap: 39px;
+
+}
+.booking div img {
+    width: 260px;
+    margin-top: 82px;
+    margin-bottom: 19px;
+}
+.booking div h2 {
+    color: #1A1A1B;
+    font-size: 18px;
+    font-family: font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.booking div p {
+    width: 260px;
+    height: 66px;
+    color: #8D8D8D;
+    font-size: 18px;
+    font-family: font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    line-height: 22px;
+}
+.cruise {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    gap: 39px;
+}
+.cruise div img {
+    width: 260px;
+    margin-top: 174px;
+    margin-bottom: 19px;
+}
+.cruise div h2 {
+    color: #1A1A1B;
+    font-size: 18px;
+    font-family: font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.cruise div p {
+    width: 260px;
+    height: 66px;
+    color: #8D8D8D;
+    font-size: 18px;
+    font-family: font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+    

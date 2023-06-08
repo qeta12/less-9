@@ -24,9 +24,14 @@ nav li {
     font-family: font-family: 'Inter', sans-serif;
     font-weight: 500;
 }
+.burger {
+    width: 100%;
+    height: 4px;
+    background-color: black;
+    display: block;
+}
 section img {
     width: 100%;
-    margin-bottom: ;
 }
 #container {
     width: 100%;
@@ -133,4 +138,12 @@ section img {
     line-height: 22px;
 }
 
-    
+@media only screen and (max-width:900px){
+    header nav {
+        display: none !important;
+    }
+    .burger {
+        display: flex !important;
+    }
+
+} 

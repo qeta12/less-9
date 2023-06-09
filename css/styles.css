@@ -139,6 +139,10 @@ section img {
 }
 
 @media only screen and (max-width:1150px){
+    .logo {
+        margin: 12px 536px 11px 30px;
+    }
+    }
     header nav {
         display: none;
     }
@@ -167,9 +171,11 @@ section img {
     }
     .booking {
         flex-wrap: wrap;
+        
     }
     .cruise {
         flex-wrap: wrap;
+       
     }
 } 
 

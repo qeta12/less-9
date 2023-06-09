@@ -25,9 +25,9 @@ nav li {
     font-weight: 500;
 }
 .burger {
-    width: 100%;
+    width: 50px;
     background-color: black;
-    display: block;
+    display: none;
 }
 section img {
     width: 100%;
@@ -144,6 +144,7 @@ section img {
     }
     .burger {
         display: flex;
+        justify-content: flex-end;
     }
     #container img {
         width: 100%;
@@ -155,6 +156,10 @@ section img {
     .discover {
         flex-wrap: wrap;
         margin-top: 10%;
+    }
+    .discover p {
+        width: 80%;
+        haight: 0;
     }
     .cards {
         flex-wrap: wrap;

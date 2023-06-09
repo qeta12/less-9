@@ -138,12 +138,15 @@ section img {
     line-height: 22px;
 }
 
-@media only screen and (max-width:900px){
+@media only screen and (max-width:1150px){
     header nav {
         display: none;
     }
     .burger {
         display: flex;
+    }
+    #container img {
+        width: 100%;
     }
 
     #container {

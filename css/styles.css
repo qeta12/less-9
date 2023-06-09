@@ -34,7 +34,7 @@ section img {
     align-items: center;
 }
 .discover {
-    margin-top: -450px;
+    margin-top: -340px;
     margin-left: 90px;
     display: flex;
     justify-content: flex-start;
@@ -82,7 +82,6 @@ section img {
 
 }
 .booking div img {
-    width: 260px;
     margin-top: 82px;
     margin-bottom: 19px;
 }
@@ -112,7 +111,7 @@ section img {
 }
 .cruise div img {
     width: 260px;
-    margin-top: 174px;
+    margin-top: 50px;
     margin-bottom: 19px;
 }
 .cruise div h2 {
@@ -151,7 +150,8 @@ section img {
     }
     .discover p {
         width: 80%;
-        haight: 0;
+        height: 0;
+        margin-bottom: 50px;
     }
     .cards {
         flex-wrap: wrap;
@@ -159,7 +159,7 @@ section img {
     }
     .booking {
         flex-wrap: wrap;
-        
+        padding-bottom: 0;
     }
     .cruise {
         flex-wrap: wrap;

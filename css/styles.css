@@ -24,11 +24,6 @@ nav li {
     font-family: 'Inter', sans-serif;
     font-weight: 500;
 }
-.burger {
-    width: 50px;
-    background-color: black;
-    display: none;
-}
 section img {
     width: 100%;
 }
@@ -142,14 +137,7 @@ section img {
     .logo {
         margin: 12px 536px 11px 30px;
     }
-    }
-    header nav {
-        display: none;
-    }
-    .burger {
-        display: flex;
-        justify-content: flex-end;
-    }
+  
     #container img {
         width: 100%;
     }
@@ -179,4 +167,8 @@ section img {
     }
 } 
 
-
+@media only screen and (max-width: 1090px) {
+    header nav {
+        display: none;
+    }
+}
